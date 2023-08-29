@@ -15,7 +15,12 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+"""
+|   **Open Source Notification:** This file is part of open source program **SuuCuriJuba**
+|   **Copyright © 2023  Carlo Oliveira** <carlo@nce.ufrj.br>,
+|   **SPDX-License-Identifier:** `GNU General Public License v3.0 or later <http://is.gd/3Udt>`_.
+|   `Labase <http://labase.selfip.org/>`_ - `NCE <http://portal.nce.ufrj.br>`_ - `UFRJ <https://ufrj.br/>`_.
+"""
 import fileinput
 import sys
 from glob import glob
@@ -30,7 +35,7 @@ author = 'Carlo E. T. Oliveira'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '22.03'
+release = '23.08'
 
 # -- General configuration ---------------------------------------------------
 
@@ -84,7 +89,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "PT_br"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

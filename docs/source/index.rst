@@ -28,6 +28,7 @@ Na verdade vamos usar o Brython que é o Python que funciona dentro de um navega
     dojo_esquenta_0.rst
     dojo_esquenta_1.rst
     dojo_inicial.rst
+    dojo_medio.rst
 
 
 Indices and tables
