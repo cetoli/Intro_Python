@@ -10,7 +10,7 @@
 Problemas para o Dojo Intermediário
 ===================================
 
-1. Ordene uma lista
+1. Números da Sorte
 -------------------------
 
 Os números da sorte são um subconjunto de números inteiros.
@@ -82,65 +82,81 @@ Por exemplo, se o parâmetro for “213”, a função deverá retornar “198�
 
   <div id="dojo_medio_3"></div>
 
-5. Os Xs são iguais aos Os?
+5. A moeda falsificada
 ---------------------------------
 
-Crie uma função Python que aceite uma string. Esta função deve contar
-o número de Xs e o número de Os na string. Ele deve retornar um valor booleano de True ou False.
-Se a contagem de Xs e Os for igual, a função deve retornar True.
-Se a contagem não for a mesma, deve retornar False.
-Se não houver Xs ou Os na string, ela também deve retornar True porque 0 é igual a 0.
-A string pode conter qualquer tipo e número de caracteres.
+Você recebeu doze moedas, mas uma é falsificada e o peso dela é ligeiramente diferente das outras.
+Usando uma balança de dois pratos, identifique qual moeda é a falsa e se seu peso é superior ou inferior ao normal.
+Desenvolva um programa que descubra a moeda falsa em três pesagens.
 
 .. raw:: html
 
   <div id="dojo_medio_4"></div>
 
-6. Crie uma função de calculadora
+6. Os três mercadores muçulmanos
 ---------------------------------
 
-Escreva uma função Python que aceite três parâmetros. O primeiro parâmetro é um número inteiro.
-O segundo é um dos seguintes operadores matemáticos: +, -, / ou .
-O terceiro parâmetro também será um número inteiro.
-A função deve realizar um cálculo e retornar os resultados.
-Por exemplo, se a função for passada 6 e 4, ela deve retornar 24.
+Disse o xeique, apontando para os três muçulmanos:
+
+- Aqui estão, ó Calculista, os três amigos. São criadores de carneiros em Damasco.
+   Enfrentam agora um dos problemas mais curiosos que tenho visto. E esse problema é o seguinte:
+   - Como pagamento de pequeno lote de carneiros, receberam aqui, em Bagdá, uma partida de vinho,
+   muito fino, composta de 21 vasos iguais, sendo: 7 cheios; 7 meio cheios; 7 vazios.
+   Querem, agora, dividir os 21 vasos de modo que cada um deles
+   receba o mesmo número de vasos e a mesma porção de vinho. Repartir os vasos é fácil.
+   Cada um dos sócios deve ficar com sete vasos. A dificuldade, a meu ver, está em
+   repartir o vinho sem abrir os vasos, isto é, conservando-os exatamente como estão.
+
+Desenvolva um programa que retorne três listas de vasos, cada lista deve obedecer às regras dadas.
+
+    Malba Tahan, `O homem que Calculava <https://malbatahan.com.br/portfolio/o-homem-que-calculava/>`_
 
 .. raw:: html
 
   <div id="dojo_medio_5"></div>
 
-7. Dê-me o desconto
+7. O problema do joalheiro
 ---------------------------------
 
-Crie uma função em Python que aceite dois parâmetros.
-O primeiro deve ser o preço total de um item como um número inteiro.
-O segundo deve ser a porcentagem de desconto como um número inteiro.
+Um homem que veio da Síria vender jóias em Bagdá prometeu ao dono de uma
+hospedagem que pagaria 20 dinares pela hospedagem se vendesse as jóias por 100 dinares,
+pagando 35 se as vendesse por 200 dinares. Mas acabou vendendo tudo por 140 dinares.
+Quanto deve pagar pela hospedagem então?
 
-A função deve retornar o preço do item após a aplicação do desconto.
-Por exemplo, se o preço for 100 e o desconto for 20, a função deve retornar 80.
+Desenvolva um programa que calcule o preço a ser pago
+
+    Malba Tahan, `O homem que Calculava <https://malbatahan.com.br/portfolio/o-homem-que-calculava/>`_
 
 .. raw:: html
 
   <div id="dojo_medio_6"></div>
 
-8. Apenas os números
+8. As pilhas de moedas, uma falsa
 ---------------------------------
 
-Escreva uma função em Python que aceite uma lista de qualquer tamanho
-que contenha uma mistura de inteiros não negativos e strings.
-A função deve retornar uma lista apenas com os inteiros da lista original na mesma ordem.
+Suponha-se que temos 10 pilhas de moedas. Uma das pilhas é inteiramente formada de moedas falsas,
+mas não sabemos qual é essa pilha. Sabemos apenas que as moedas falsas pesam uma grama a menos que as genuínas.
+A balança é uma que tem um ponteiro e diz quanto é o peso no prato.
+
+Desenvolva um programa que em uma única pesagem diga qual é a pilha de moedas falsas.
+
+    Malba Tahan, `O homem que Calculava <https://malbatahan.com.br/portfolio/o-homem-que-calculava/>`_
 
 .. raw:: html
 
   <div id="dojo_medio_7"></div>
 
-9. Repita os caracteres
+9. O problema dos 8 pães
 ---------------------------------
 
-Crie uma função Python que aceite uma string.
-A função deve retornar uma string, com cada caractere na string original duplicado.
-Se você enviar a função "agora" como parâmetro, ela deve retornar "aaggoorraa",
-e se você enviar "123a!", ela deve retornar "112233aa!!".
+João deseja pagar Pedro e Marcus que durante uma viagem repartiram com ele 8 pães,
+sendo que Pedro tinha 5 pães e Marcus tinha 3. A divisão foi feita de modo uniforme e cada pão custa 1 moeda.
+Quantas moedas Pedro e Marcus devem receber?
+
+Desenvolva um programa que retorne o valor devido a Pedro e a Marcus.
+
+    Malba Tahan, `O homem que Calculava <https://malbatahan.com.br/portfolio/o-homem-que-calculava/>`_
+
 
 .. raw:: html
 
